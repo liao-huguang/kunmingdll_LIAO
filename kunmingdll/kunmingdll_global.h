@@ -1,0 +1,12 @@
+#ifndef KUNMINGDLL_GLOBAL_H
+#define KUNMINGDLL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(KUNMINGDLL_LIBRARY)
+#  define KUNMINGDLLSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define KUNMINGDLLSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // KUNMINGDLL_GLOBAL_H
