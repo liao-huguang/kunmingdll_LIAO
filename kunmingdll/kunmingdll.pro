@@ -15,7 +15,8 @@ SOURCES += kunmingdll.cpp
 
 HEADERS += kunmingdll.h \
     H/myq_dtranssuub_wz.h \
-    H/math/mysum.h
+    H/math/mysum.h \
+    H/myinitsub_m_wz.h
 
 unix {
     target.path = /usr/lib
